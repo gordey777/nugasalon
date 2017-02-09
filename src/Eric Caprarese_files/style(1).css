@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ctp-wrapper {width:650px;margin:auto;}
+.ctp-clear {clear:both;}
+.ctp-testimonial {color:#333;text-shadow:1px solid #FFF;font-size:12px;line-height:17px;}
+.ctp-entry-title {padding:5px 0;font-size:22px;text-shadow:1px solid #FFF;font-family:Arial, Helvetica, sans-serif;}
+.ctp-main-column {margin:auto;padding:8px;}
+.ctp-sidebar {float:right;}
+.ctp-float-right {float:right;}
+.ctp-entry {color:#333;text-shadow:1px solid #FFF;font-size:12px;line-height:17px;}
+.ctp-testimonial img, .ctp-entry img {padding:2px;border:1px solid #CCC;margin:5px;}
+.ctp-navigation {height:30px;margin:auto;}
+.ctp-nav-previous {float:left;}
+.ctp-nav-next {float:right;}
+.ctp-nav-next a, .ctp-nav-previous a {font-size:12px;}
+.ctp-testimonials-breadcrumb {padding:6px 0;}
+.ctp-testimonials-breadcrumb {font-size:14px;text-decoration:underline;}
+.ctp-label {font-size:18px;font-weight:bold;color:#333;text-shadow;1px 1px 0 #DDD;display:block;padding-top:15px;}
+.ctp-input {padding:5px 2px;border:2px solid #DDD;width:280px;}
+.ctp-p {margin:8px 0;}
+textarea.ctp-input {width:400px;height:180px;}
