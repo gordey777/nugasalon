@@ -103,4 +103,17 @@ if (is_admin()) {
 	require_once('admin/admin.php');
 }
 
+// отключаем обновление тем
+remove_action( 'load-update-core.php', 'wp_update_themes' );
+add_filter( 'pre_site_transient_update_themes', '__return_null' );
+
+// отключаем авто обновления
+add_filter( 'auto_update_theme', '__return_false' );
+
+// спрячем имеющиеся уведомления
+add_action('admin_menu','hide_admin_notices');
+function hide_admin_notices() {
+    remove_action( 'admin_notices', 'update_nag', 3 );
+}
+
 ?>
