@@ -1,0 +1,28 @@
+function tweetScroll(li) {
+	
+	var currentLi = li;
+	if (currentLi == 0) {
+		// make currentLi the first li
+		currentLi = jQuery('.latest-tweets ul').children('li:first');
+	}
+	var nextLi = jQuery(currentLi).next('li');
+	
+	// if there is no next li, meaning this is the last li, make nextLi the first
+	if (jQuery(currentLi)[0] == jQuery('.latest-tweets ul').children('li:last')[0]) {
+		nextLi = jQuery('.latest-tweets ul').children('li:first');
+	}
+	
+	// scroll to the nextLi
+	jQuery('.latest-tweets').scrollTo(jQuery(nextLi), 500);
+	
+	// call tweetScroll again in 5 seconds
+	setTimeout(function(){tweetScroll(jQuery(nextLi))}, 5000);
+}
+
+
+jQuery(document).ready(function() {
+    // check for the scrolling twitter demo
+    if (jQuery('.latest-tweets').length) {
+        setTimeout(function(){tweetScroll(0)}, 5000);
+    }
+});

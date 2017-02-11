@@ -1,12 +1,13 @@
-=== MH Newsdesk lite NUGABEST - Dynamic News WordPress Theme ===
+=== MH Newsdesk lite - Dynamic News WordPress Theme ===
 Theme URI: https://www.mhthemes.com/themes/mh/newsdesk-lite/
-Tags: 
-Requires at least: 
-Tested up to:
-Stable tag: 
-License: 
-License 
-
+Tags: Magazine, News, Blog, Responsive
+Requires at least: 4.1.0
+Tested up to: 4.7.0
+Stable tag: 1.3.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+MH Newsdesk lite WordPress Theme, Copyright 2015-2016 MH Themes
+MH Newsdesk lite is distributed under the terms of the GNU GPL
 
 ==================================
 Description

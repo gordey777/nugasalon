@@ -1,9 +1,10 @@
 /* if work with html set TRUE, else - FALSE */
 var htmlOWp = false,
   // set wordpress template folder
-  wpThemeName = 'mh-newsdesk-lite',
+  wpThemeName = 'wp-nugabest',
   // and set wordpress domain
   wpDomain = 'nugasalon.dev';
+
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 8', 'ie_mob >= 10', 'ff >= 20', 'chrome >= 24', 'safari >= 5', 'opera >= 12', 'ios >= 7', 'android >= 2.3', '> 1%', 'last 4 versions', 'bb >= 10'
@@ -24,7 +25,7 @@ var paths = {
   images: {
     src: basePaths.src + 'img/',
     srcimg: basePaths.src + 'img/**/*.{png,jpg,jpeg,gif,svg}',
-    dest: basePaths.dest + 'images/'
+    dest: basePaths.dest + 'img/'
   },
   scripts: {
     src: basePaths.src + 'js/**',
@@ -33,7 +34,7 @@ var paths = {
   styles: {
     src: basePaths.src + 'scss/',
     css: basePaths.src + 'css/',
-    dest: basePaths.dest
+    dest: basePaths.dest + 'css/'
   },
   fonts: {
     src: basePaths.src + 'fonts/**',
